@@ -1,12 +1,51 @@
+.container {
+    display: flex;
+    justify-content: center;
+    height: 1000px;
+    width: 3000px;
+    background-image: url(https://img.freepik.com/vector-premium/ciudad-calle-centro-urbano-panoramico-paisaje-urbano_88272-2887.jpg?w=2000);
+}
 
-/* 
 
-    You can write your own styles here...
-    
-    
-    ...Or you can use the import command to include 
-    other sylesheets into your bunde as well, e.j:
-    
-    import 'relative/path/to/stylesheet.scss';
+.semaphore {
+    display: block;
+}
 
-*/
+.tube {
+    height: 60px;
+    width: 20px;
+    background: orange;
+    margin: auto;
+}
+
+
+.traffic-light {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 5px;
+    border-radius: 5%;
+    background-color: orange;
+    height: 220px;
+    width: 80px;
+}
+
+.light {
+    margin: 5px;
+    border-radius: 60%;
+    border: solid 2px black;
+    height: 50%;
+    width: auto;
+}
+
+.red {
+    background-color: red;
+}
+
+.yellow {
+    background-color: yellow;
+}
+
+.green {
+    background-color: green;
+}
