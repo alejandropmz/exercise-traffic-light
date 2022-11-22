@@ -27,6 +27,7 @@
     padding: 5px;
     border-radius: 5%;
     background-color: orange;
+    border: black 1px solid;
     height: 260px;
     width: 100px;
 }
@@ -53,6 +54,7 @@
 
 .off {
     opacity: 0.6;
+    border: black 1px solid;
 }
 
 button {
@@ -65,4 +67,5 @@ button {
     display: flex;
     margin: auto;
     height: 30px;
+    border: black 1px solid;
 }
