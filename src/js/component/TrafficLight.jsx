@@ -5,6 +5,8 @@ const Trafficlight = () => {
   const [color, setColor] = useState("");
   const [indice, setIndice] = useState(0);
 
+// Aplicar un useEffect similar al del contador 
+
   const Auto = () => {
     setInterval(() => {
       setIndice(indice + 1);
