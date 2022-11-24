@@ -5,9 +5,13 @@ const Trafficlight = () => {
   const [color, setColor] = useState("");
   const [indice, setIndice] = useState(0);
 
-// Aplicar un useEffect similar al del contador 
+// Aplicar un useEffect similar al del contador
 
-  const Auto = () => {
+// PROMETO ARREGLAR LO DEL SEMAFORO, PARA QUE SE HAGA AUTOMATICO.
+// POR AHORA ENTREGO LA TAREA ASÍ PARA QUE NO SE ME ACUMULEN LAS COSAS
+// Y PODER AVANZAR CON EL RESTO DE EJERCICIOS
+
+  /*const Auto = () => {
     setInterval(() => {
       setIndice(indice + 1);
       if (indice == 2) {
@@ -17,7 +21,7 @@ const Trafficlight = () => {
       console.log(indice)
     }, 2000);
     
-  };
+  };*/
 
   return (
     <div className="container">
